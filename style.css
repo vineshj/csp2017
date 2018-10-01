@@ -1,0 +1,47 @@
+h1{
+  text-align: center;
+  color: tomato;
+}
+
+h2{
+    font-weight: normal;
+    font-size: 12pt;
+    color: grey;
+}
+img{
+    
+    height:300pt;
+    width:500pt;
+
+    
+}
+h3{
+    text-align:center;
+}
+
+#backhome{
+height:300pt;
+text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+a:link, a:visited {
+    text-align: center;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+a:hover, a:active {
+    background-color: grey;
+}
+
+#links{
+    text-align:center;
+}
