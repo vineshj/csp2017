@@ -5,11 +5,20 @@ h1{
 
 h2{
     font-weight: normal;
-    font-size: 12pt;
+    font-size: 13pt;
     color: grey;
 }
+h4{
+	text-align: center;
+	color: blue;
+	text-decoration: underline;
+	font-size: 25px;
+	
+}
 img{
-    
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
     height:300pt;
     width:500pt;
 
@@ -17,16 +26,37 @@ img{
 }
 h3{
     text-align:center;
+	
 }
 
 #backhome{
-height:300pt;
-text-align: center;
+	text-align: center;
     margin-left: auto;
     margin-right:auto;
 }
+#Scratch{
+	text-align: left;
+	border: 3px solid gray;
+	width: 50%;
+	padding: 5px;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
 
-a:link, a:visited {
+	
+
+
+a:hover, a:active {
+    background-color: grey;
+}
+#links{
+	text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+}
+.button{
     text-align: center;
     font-weight: bold;
     background-color: black;
@@ -34,14 +64,4 @@ a:link, a:visited {
     padding: 14px 25px;
     text-decoration: none;
     display: inline-block;
-}
-
-
-
-a:hover, a:active {
-    background-color: grey;
-}
-
-#links{
-    text-align:center;
 }
